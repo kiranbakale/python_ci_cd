@@ -2,7 +2,7 @@
 set -e
 
 # Pull the Docker image from Docker Hub
-echo
+docker pull kiran63/python_app_cicd
 
 # Run the Docker image as a container
-echo
+docker run -dp 5000:5000 kiran63/python_app_cicd 
