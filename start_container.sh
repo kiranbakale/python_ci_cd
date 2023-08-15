@@ -1,6 +1,9 @@
 #!/bin/bash
 set -e
 
+#Download the docker
+sudo apt install docker.io -y
+
 # Pull the Docker image from Docker Hub
 docker pull kiran63/python_app_cicd
 
